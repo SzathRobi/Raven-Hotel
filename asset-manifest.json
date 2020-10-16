@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/raven-hotel/static/css/main.5f361e03.chunk.css",
+    "main.js": "/raven-hotel/static/js/main.347285d2.chunk.js",
+    "main.js.map": "/raven-hotel/static/js/main.347285d2.chunk.js.map",
+    "runtime-main.js": "/raven-hotel/static/js/runtime-main.d2abdef8.js",
+    "runtime-main.js.map": "/raven-hotel/static/js/runtime-main.d2abdef8.js.map",
+    "static/js/2.b8b33e5e.chunk.js": "/raven-hotel/static/js/2.b8b33e5e.chunk.js",
+    "static/js/2.b8b33e5e.chunk.js.map": "/raven-hotel/static/js/2.b8b33e5e.chunk.js.map",
+    "index.html": "/raven-hotel/index.html",
+    "precache-manifest.950fc51fbc09aca1537e13f5a05bc8d8.js": "/raven-hotel/precache-manifest.950fc51fbc09aca1537e13f5a05bc8d8.js",
+    "service-worker.js": "/raven-hotel/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/raven-hotel/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.b8b33e5e.chunk.js.LICENSE.txt": "/raven-hotel/static/js/2.b8b33e5e.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/raven-hotel/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2abdef8.js",
+    "static/js/2.b8b33e5e.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.347285d2.chunk.js"
+  ]
+}
