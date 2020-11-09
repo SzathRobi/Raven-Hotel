@@ -1,0 +1,21 @@
+.Services {
+  width: 100%;
+  margin: 6rem 1rem 2rem 0;
+}
+
+.Services-header {
+  width: 15rem;
+  margin: 12rem 1rem 2rem;
+  font-size: 2rem;
+}
+
+.Service-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+@media (min-width: 1024px) {
+  .Services-header {
+    width: 24rem;
+    margin: 12rem 5rem 6rem;
+  }
+}

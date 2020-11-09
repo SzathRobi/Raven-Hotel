@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+}
+
+.App {
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes growRight {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 3rem;
+  }
+}
+@keyframes slideLeft {
+  0% {
+    opacity: 0;
+    left: 8rem;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}

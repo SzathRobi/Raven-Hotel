@@ -1,0 +1,9 @@
+.GuestBookPage {
+  width: 45%;
+  height: 95%;
+  background-color: #f4f4f4;
+  position: absolute;
+  right: 5%;
+  top: 2.5%;
+  transform-origin: left;
+}

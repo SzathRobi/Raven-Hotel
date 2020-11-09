@@ -1,0 +1,56 @@
+.Guestbook {
+  width: 100%;
+  padding: 1rem;
+  margin: 2rem 0 0;
+  background-color: #0097a7;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.Guestbook::before {
+  content: "";
+  width: 100%;
+  height: 8rem;
+  background-color: #fff;
+  position: absolute;
+  top: 2rem;
+  right: -3rem;
+  transform-origin: right;
+  transform: rotate(45deg);
+}
+
+.Gusestbook-container {
+  width: 95%;
+  position: relative;
+}
+
+.guestbookReview {
+  width: 100%;
+  min-height: 12rem;
+  margin: 1rem auto 0.5rem;
+  padding: 1rem;
+  background-color: #006064;
+  color: #f1f1f1;
+  box-shadow: 0 0 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.avatars {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .Guestbook {
+    font-size: 140%;
+  }
+  .Gusestbook-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

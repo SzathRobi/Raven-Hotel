@@ -1,0 +1,24 @@
+.Offers {
+  width: 100%;
+  margin: 10rem 0 5rem;
+}
+
+.Offers h1 {
+  width: 100%;
+  text-align: center;
+  margin: 7rem 0;
+}
+
+.offercards {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+  .Offers {
+    padding: 0 1rem;
+  }
+  .offercards {
+    flex-direction: row;
+  }
+}
