@@ -24,12 +24,12 @@ export default function App() {
       <div className="App">
         <Header />
 
-        <Route path="/" exact component={Home} />
-        <Route path="/About" component={About} />
-        <Route path="/Rooms" component={Rooms} />
-        <Route path="/Restaurant" component={Restaurant} />
-        <Route path="/Blog" component={Blog} />
-        <Route path="/Book" component={Book} />
+        <Route path="/raven-hotel" exact component={Home} />
+        <Route path="/raven-hotel/About" component={About} />
+        <Route path="/raven-hotel/Rooms" component={Rooms} />
+        <Route path="/raven-hotel/Restaurant" component={Restaurant} />
+        <Route path="/raven-hotel/Blog" component={Blog} />
+        <Route path="/raven-hotel/Book" component={Book} />
       </div>
     </BrowserRouter>
   );

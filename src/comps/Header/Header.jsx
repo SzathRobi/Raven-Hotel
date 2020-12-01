@@ -85,19 +85,19 @@ const Header = () => {
           <img src={hotelLogo} className="hotel-logo" alt="hotelLogo" />
           <nav className={classes.nav}>
             <ul className={classes.navList}>
-              <Link className={classes.listItem} to="/">
+              <Link className={classes.listItem} to="/raven-hotel">
                 Home
               </Link>
-              <Link className={classes.listItem} to="/Book">
+              <Link className={classes.listItem} to="/raven-hotel/Book">
                 Book
               </Link>
-              <Link className={classes.listItem} to="/About">
+              <Link className={classes.listItem} to="/raven-hotel/About">
                 About
               </Link>
-              <Link className={classes.listItem} to="/Restaurant">
+              <Link className={classes.listItem} to="/raven-hotel/Restaurant">
                 Restaurant
               </Link>
-              <Link className={classes.listItem} to="/Blog">
+              <Link className={classes.listItem} to="/raven-hotel/Blog">
                 Blog
               </Link>
             </ul>
