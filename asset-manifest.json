@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/raven-hotel/static/css/main.10d80f27.chunk.css",
-    "main.js": "/raven-hotel/static/js/main.d79b71c6.chunk.js",
-    "main.js.map": "/raven-hotel/static/js/main.d79b71c6.chunk.js.map",
+    "main.js": "/raven-hotel/static/js/main.d758b416.chunk.js",
+    "main.js.map": "/raven-hotel/static/js/main.d758b416.chunk.js.map",
     "runtime-main.js": "/raven-hotel/static/js/runtime-main.0d34c214.js",
     "runtime-main.js.map": "/raven-hotel/static/js/runtime-main.0d34c214.js.map",
     "static/css/2.4707e12a.chunk.css": "/raven-hotel/static/css/2.4707e12a.chunk.css",
     "static/js/2.474d1ace.chunk.js": "/raven-hotel/static/js/2.474d1ace.chunk.js",
     "static/js/2.474d1ace.chunk.js.map": "/raven-hotel/static/js/2.474d1ace.chunk.js.map",
     "index.html": "/raven-hotel/index.html",
-    "precache-manifest.063aa3cfb039ef8d186afbc132df5af4.js": "/raven-hotel/precache-manifest.063aa3cfb039ef8d186afbc132df5af4.js",
+    "precache-manifest.86c9b6bad60f1b0f8707d0716d0f9a03.js": "/raven-hotel/precache-manifest.86c9b6bad60f1b0f8707d0716d0f9a03.js",
     "service-worker.js": "/raven-hotel/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/raven-hotel/static/css/2.4707e12a.chunk.css.map",
     "static/css/main.10d80f27.chunk.css.map": "/raven-hotel/static/css/main.10d80f27.chunk.css.map",
@@ -66,6 +66,6 @@
     "static/css/2.4707e12a.chunk.css",
     "static/js/2.474d1ace.chunk.js",
     "static/css/main.10d80f27.chunk.css",
-    "static/js/main.d79b71c6.chunk.js"
+    "static/js/main.d758b416.chunk.js"
   ]
 }
