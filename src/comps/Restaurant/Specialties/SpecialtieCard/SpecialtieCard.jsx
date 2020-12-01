@@ -45,7 +45,7 @@ export default function SpecialtieCard({ img, title, price }) {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root} data-aos="fade-up">
       <CardActionArea className={classes.actionArea}>
         <CardMedia
           className={classes.media}

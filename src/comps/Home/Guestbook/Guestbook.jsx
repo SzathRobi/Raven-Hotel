@@ -179,21 +179,21 @@ const Guestbook = () => {
           </Paper>
         </Slide>
         <div className="avatars">
-          <IconButton onClick={updateActualReview}>
+          <IconButton onClick={updateActualReview} data-aos="fade-up">
             <Avatar
               alt={guestReviews.guest1.name}
               src={guestReviews.guest1.img}
               className={classes.avatar}
             />
           </IconButton>
-          <IconButton onClick={updateActualReview}>
+          <IconButton onClick={updateActualReview} data-aos="fade-up" data-aos-delay="150">
             <Avatar
               alt={guestReviews.guest2.name}
               src={guestReviews.guest2.img}
               className={classes.avatar}
             />
           </IconButton>
-          <IconButton onClick={updateActualReview}>
+          <IconButton onClick={updateActualReview} data-aos="fade-up" data-aos-delay="300">
             <Avatar
               alt={guestReviews.guest3.name}
               src={guestReviews.guest3.img}

@@ -37,7 +37,7 @@ const Specialties = () => {
 
   return (
     <Grid className={classes.root}>
-      <Typography className={classes.header} variant="h4">
+      <Typography className={classes.header} variant="h4" data-aos="fade-up">
         Our Specialties
       </Typography>
       <div className={classes.grid}>
@@ -70,7 +70,7 @@ const Specialties = () => {
           price="18.50"
         />
       </div>
-      <Typography align="center" variant="h4">
+      <Typography align="center" variant="h4" data-aos="fade-up">
         And Much More!
       </Typography>
     </Grid>

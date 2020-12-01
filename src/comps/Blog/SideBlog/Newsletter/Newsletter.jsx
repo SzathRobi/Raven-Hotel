@@ -22,7 +22,7 @@ const Newsletter = () => {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} data-aos="fade-left">
       <Typography variant="h5">Newsletter</Typography>
       <TextField
         className={classes.input}

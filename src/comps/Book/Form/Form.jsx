@@ -41,7 +41,7 @@ const Form = () => {
   const classes = useStyles();
 
   return (
-    <Grid className={classes.root}>
+    <Grid className={classes.root} data-aos="fade-up">
       <Typography className={classes.title} variant="h4">
         Check Avaibleity
       </Typography>

@@ -56,22 +56,22 @@ const RestaurantIntro = () => {
 
   return (
     <Card className={classes.root}>
-      <CardMedia className={classes.img} image={restaurantImg} />
+      <CardMedia className={classes.img} image={restaurantImg} data-aos="fade-left"/>
       <CardContent>
-        <Typography className={classes.headerText} variant="h4">
+        <Typography className={classes.headerText} variant="h4" data-aos="fade-up">
           Raven Hotel Restaurant
         </Typography>
-        <Typography className={classes.text} variant="body1">
+        <Typography className={classes.text} variant="body1" data-aos="fade-up">
           Magnam ratione culpa eos nemo pariatur ad eum architectoLorem ipsum
           dolor sit amet consectetur, adipisicing elit. Tempora nam voluptatum
           magnam ratione culpa eos nemo pariatur ad eum architecto?
         </Typography>
-        <Typography className={classes.text} variant="body1">
+        <Typography className={classes.text} variant="body1" data-aos="fade-up">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora nam
           voluptatum magnam ratione culpa eos nemo pariatur ad eum architecto?
         </Typography>
       </CardContent>
-      <Button className={classes.btn} variant="contained">
+      <Button className={classes.btn} variant="contained" data-aos="fade-up">
         more info
       </Button>
     </Card>

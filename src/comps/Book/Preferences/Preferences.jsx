@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  Grid,
   Checkbox,
   FormControlLabel,
   makeStyles,
@@ -34,7 +33,7 @@ const Preferences = () => {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} data-aos="fade-up">
       <div>
         <Typography className={classes.title} variant="h4">
           Choose Any Preference

@@ -40,7 +40,7 @@ export default function RecentPost({ img, title, date }) {
   const theme = useTheme();
 
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root} data-aos="fade-left">
       <CardMedia
         className={classes.cover}
         image={img}

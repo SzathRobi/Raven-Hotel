@@ -35,11 +35,11 @@ const useStyles = makeStyles({
   }
 });
 
-const OfferCard = ({ img }) => {
+const OfferCard = ({ img, delay }) => {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root} data-aos="fade-left" data-aos-delay={delay}>
       <CardMedia
         className={classes.media}
         image={img}

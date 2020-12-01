@@ -15,7 +15,7 @@ const Tags = () => {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} data-aos="fade-left">
       <Tag tag="hotel" />
       <Tag tag="restaurant" />
       <Tag tag="travel" />

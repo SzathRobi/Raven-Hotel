@@ -34,7 +34,7 @@ const AboutCounter = () => {
 
   return (
     <div className={classes.root}>
-      <div className={classes.counter}>
+      <div className={classes.counter} data-aos="fade-up">
         <Typography variant="h3" className={classes.counterNum}>
           25
         </Typography>
@@ -45,7 +45,7 @@ const AboutCounter = () => {
           From 399$
         </Typography>
       </div>
-      <div className={classes.counter}>
+      <div className={classes.counter} data-aos="fade-up" data-aos-delay="150">
         <Typography variant="h3" className={classes.counterNum}>
           42k
         </Typography>
@@ -56,7 +56,7 @@ const AboutCounter = () => {
           All Year Long
         </Typography>
       </div>
-      <div className={classes.counter}>
+      <div className={classes.counter} data-aos="fade-up" data-aos-delay="300">
         <Typography variant="h3" className={classes.counterNum}>
           365
         </Typography>

@@ -37,7 +37,7 @@ const InstaFeeds = () => {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} data-aos="fade-left">
       <h3 className={classes.title}>Instagram Feeds</h3>
       <div className={classes.imgs}>
         <Card>

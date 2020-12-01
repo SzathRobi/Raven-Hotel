@@ -53,7 +53,7 @@ const Services = () => {
   const classes = useStyles();
   return (
     <section className={classes.root}>
-      <h1 className={classes.header}>Our Services Includes:</h1>
+      <h1 className={classes.header} data-aos="fade-left">Our Services Includes:</h1>
       <div className={classes.cards}>
         <ServiceCard
           icon={<WifiRoundedIcon className={classes.iconStyle} />}

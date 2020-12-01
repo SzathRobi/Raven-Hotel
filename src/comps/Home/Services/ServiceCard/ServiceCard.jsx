@@ -19,7 +19,7 @@ const ServiceCard = ({ icon, title, text }) => {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root} data-aos="fade-up">
       {icon}
       <Typography variant="h6" className={classes.title}>
         {title}

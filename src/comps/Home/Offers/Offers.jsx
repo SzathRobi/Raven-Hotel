@@ -35,13 +35,13 @@ const Offers = () => {
 
   return (
     <div className={classes.root}>
-      <Typography variant="h3" className={classes.title}>
+      <Typography variant="h3" className={classes.title} data-aos="fade-up">
         Ongoing Offers
       </Typography>
       <div className={classes.offercards}>
-        <OfferCard img={roomOffer1} />
-        <OfferCard img={roomOffer2} />
-        <OfferCard img={roomOffer3} />
+        <OfferCard img={roomOffer1} delay="0"/>
+        <OfferCard img={roomOffer2} delay="150"/>
+        <OfferCard img={roomOffer3} delay="300"/>
       </div>
     </div>
   );

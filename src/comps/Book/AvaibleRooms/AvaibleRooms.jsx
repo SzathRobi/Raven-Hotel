@@ -20,13 +20,13 @@ const AvaibleRooms = () => {
 
   return (
     <Grid className={classes.root}>
-      <Typography className={classes.title} variant="h4">
+      <Typography className={classes.title} variant="h4" data-aos="fade-right">
         Avaible Rooms
       </Typography>
       <Grid className={classes.rooms}>
-        <Room />
-        <Room />
-        <Room />
+        <Room delay="0"/>
+        <Room delay="150"/>
+        <Room delay="300"/>
       </Grid>
     </Grid>
   );

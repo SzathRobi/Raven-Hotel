@@ -44,11 +44,11 @@ const useStyles = makeStyles({
   }
 });
 
-const Room = () => {
+const Room = ({delay}) => {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root} data-aos="fade-left" data-aos-delay={delay}>
       <CardMedia image={roomsBg} className={classes.img} />
       <CardContent className={classes.content}>
         <Typography variant="h5">King Room</Typography>

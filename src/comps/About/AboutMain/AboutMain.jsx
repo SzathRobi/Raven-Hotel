@@ -65,18 +65,18 @@ const AboutMain = () => {
 
   return (
     <main className={classes.root}>
-      <Typography variant="h4">A Luxuries Hotel with Nature</Typography>
-      <Typography className={classes.mainText} variant="h6">
+      <Typography variant="h4" data-aos="fade-right">A Luxuries Hotel with Nature</Typography>
+      <Typography className={classes.mainText} variant="h6" data-aos="fade-right">
         Suscipit libero pretium nullam potenti. Interdum, blandit phasellus
         consectetuer dolor ornare dapibus enim ut tincidunt rhoncus tellus
         sollicitudin pede nam maecenas, dolor sem. Neque sollicitudin enim.
         Dapibus lorem feugiat facilisi faucibus et. Rhoncus.
       </Typography>
-      <Button variant="outlined" className={classes.btn}>
+      <Button variant="outlined" className={classes.btn} data-aos="fade-right">
         Learn More
       </Button>
-      <img className={classes.img1} src={pic1} alt="" />
-      <img className={classes.img2} src={pic2} alt="" />
+      <img className={classes.img1} src={pic1} alt="raven hotel room" data-aos="fade-up"/>
+      <img className={classes.img2} src={pic2} alt="raven hotel room" data-aos="fade-up" data-aos-delay="150"/>
     </main>
   );
 };

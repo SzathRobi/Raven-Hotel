@@ -56,7 +56,7 @@ const useStyles = makeStyles((theme) => ({
 export default function BlogCard({ img, title, category, timeStamp }) {
   const classes = useStyles();
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root} data-aos="fade-up">
       <div className={classes.badge}>
         <p>{category}</p>
       </div>

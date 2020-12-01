@@ -29,10 +29,10 @@ const AboutPictures = () => {
 
   return (
     <Grid container className={classes.root}>
-      <img src={room1} className={classes.img} alt="" />
-      <img src={room2} className={classes.img} alt="" />
-      <img src={room3} className={classes.img} alt="" />
-      <img src={room4} className={classes.img} alt="" />
+      <img src={room1} className={classes.img} alt="raven hotel room" data-aos="fade-right" />
+      <img src={room2} className={classes.img} alt="raven hotel room" data-aos="fade-right" data-aos-delay="150"/>
+      <img src={room3} className={classes.img} alt="raven hotel room" data-aos="fade-right" data-aos-delay="300"/>
+      <img src={room4} className={classes.img} alt="raven hotel room" data-aos="fade-right" data-aos-delay="450"/>
     </Grid>
   );
 };
