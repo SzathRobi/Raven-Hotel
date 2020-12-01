@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7bf61806d133f28886a616b19673b37a",
+    "revision": "c6b2fa53893c6d803f7ee0ff6670bc2d",
     "url": "/raven-hotel/index.html"
   },
   {
-    "revision": "8c5032f812e4752f8b92",
-    "url": "/raven-hotel/static/css/main.ed421bfb.chunk.css"
+    "revision": "6262848051a62c8fac49",
+    "url": "/raven-hotel/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "bae2176f539985d959b9",
-    "url": "/raven-hotel/static/js/2.83b83065.chunk.js"
+    "revision": "2a95ed5c059cbea83f89",
+    "url": "/raven-hotel/static/css/main.10d80f27.chunk.css"
   },
   {
-    "revision": "6397acf4c5cafcd591a770ce33fc3e2f",
-    "url": "/raven-hotel/static/js/2.83b83065.chunk.js.LICENSE.txt"
+    "revision": "6262848051a62c8fac49",
+    "url": "/raven-hotel/static/js/2.474d1ace.chunk.js"
   },
   {
-    "revision": "8c5032f812e4752f8b92",
-    "url": "/raven-hotel/static/js/main.901127cd.chunk.js"
+    "revision": "0749163b59fbee32225059cb60c18af6",
+    "url": "/raven-hotel/static/js/2.474d1ace.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d790a958e7325685fbc3",
-    "url": "/raven-hotel/static/js/runtime-main.d2abdef8.js"
+    "revision": "2a95ed5c059cbea83f89",
+    "url": "/raven-hotel/static/js/main.d79b71c6.chunk.js"
+  },
+  {
+    "revision": "290be07b27d22379eaae",
+    "url": "/raven-hotel/static/js/runtime-main.0d34c214.js"
   },
   {
     "revision": "b72d654df247184eee1aaaa96fb73580",

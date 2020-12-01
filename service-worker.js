@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/raven-hotel/precache-manifest.b6551b107f9e902e7d08a2800f373cb3.js"
+  "/raven-hotel/precache-manifest.063aa3cfb039ef8d186afbc132df5af4.js"
 );
 
 self.addEventListener('message', (event) => {

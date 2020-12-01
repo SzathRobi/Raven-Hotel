@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/raven-hotel/static/css/main.ed421bfb.chunk.css",
-    "main.js": "/raven-hotel/static/js/main.901127cd.chunk.js",
-    "main.js.map": "/raven-hotel/static/js/main.901127cd.chunk.js.map",
-    "runtime-main.js": "/raven-hotel/static/js/runtime-main.d2abdef8.js",
-    "runtime-main.js.map": "/raven-hotel/static/js/runtime-main.d2abdef8.js.map",
-    "static/js/2.83b83065.chunk.js": "/raven-hotel/static/js/2.83b83065.chunk.js",
-    "static/js/2.83b83065.chunk.js.map": "/raven-hotel/static/js/2.83b83065.chunk.js.map",
+    "main.css": "/raven-hotel/static/css/main.10d80f27.chunk.css",
+    "main.js": "/raven-hotel/static/js/main.d79b71c6.chunk.js",
+    "main.js.map": "/raven-hotel/static/js/main.d79b71c6.chunk.js.map",
+    "runtime-main.js": "/raven-hotel/static/js/runtime-main.0d34c214.js",
+    "runtime-main.js.map": "/raven-hotel/static/js/runtime-main.0d34c214.js.map",
+    "static/css/2.4707e12a.chunk.css": "/raven-hotel/static/css/2.4707e12a.chunk.css",
+    "static/js/2.474d1ace.chunk.js": "/raven-hotel/static/js/2.474d1ace.chunk.js",
+    "static/js/2.474d1ace.chunk.js.map": "/raven-hotel/static/js/2.474d1ace.chunk.js.map",
     "index.html": "/raven-hotel/index.html",
-    "precache-manifest.b6551b107f9e902e7d08a2800f373cb3.js": "/raven-hotel/precache-manifest.b6551b107f9e902e7d08a2800f373cb3.js",
+    "precache-manifest.063aa3cfb039ef8d186afbc132df5af4.js": "/raven-hotel/precache-manifest.063aa3cfb039ef8d186afbc132df5af4.js",
     "service-worker.js": "/raven-hotel/service-worker.js",
-    "static/css/main.ed421bfb.chunk.css.map": "/raven-hotel/static/css/main.ed421bfb.chunk.css.map",
-    "static/js/2.83b83065.chunk.js.LICENSE.txt": "/raven-hotel/static/js/2.83b83065.chunk.js.LICENSE.txt",
+    "static/css/2.4707e12a.chunk.css.map": "/raven-hotel/static/css/2.4707e12a.chunk.css.map",
+    "static/css/main.10d80f27.chunk.css.map": "/raven-hotel/static/css/main.10d80f27.chunk.css.map",
+    "static/js/2.474d1ace.chunk.js.LICENSE.txt": "/raven-hotel/static/js/2.474d1ace.chunk.js.LICENSE.txt",
     "static/media/aboutBg.jpg": "/raven-hotel/static/media/aboutBg.b72d654d.jpg",
     "static/media/avatar1.jpg": "/raven-hotel/static/media/avatar1.a02bfaa5.jpg",
     "static/media/avatar2.jpg": "/raven-hotel/static/media/avatar2.8bcd9a7e.jpg",
@@ -60,9 +62,10 @@
     "static/media/specialty8.jpg": "/raven-hotel/static/media/specialty8.e92f5167.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d2abdef8.js",
-    "static/js/2.83b83065.chunk.js",
-    "static/css/main.ed421bfb.chunk.css",
-    "static/js/main.901127cd.chunk.js"
+    "static/js/runtime-main.0d34c214.js",
+    "static/css/2.4707e12a.chunk.css",
+    "static/js/2.474d1ace.chunk.js",
+    "static/css/main.10d80f27.chunk.css",
+    "static/js/main.d79b71c6.chunk.js"
   ]
 }
