@@ -33,12 +33,7 @@ const Home = () => {
 
       <Services />
       <Offers />
-
       <Guestbook />
-      {/*<section className="instagram">
-        <h2>Follow Us On Instagram</h2>
-        <div className="imgSlider">images</div>
-      </section>*/}
       <Contact />
     </div>
   );

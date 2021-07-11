@@ -39,11 +39,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-
-      <p className="copyrights">
-        Copyright Â©2020 All rights reserved | This template is made by
-        SzathRobi
-      </p>
     </footer>
   );
 };

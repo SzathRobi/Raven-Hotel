@@ -8,14 +8,14 @@ import Rooms from "./comps/Rooms/Rooms";
 import Restaurant from "./comps/Restaurant/Restaurant";
 import Book from "./comps/Book/Book";
 
-import AOS from "aos"
+import AOS from "aos";
 import "aos/dist/aos.css";
 import { BrowserRouter, Route } from "react-router-dom";
 
 export default function App() {
-
   AOS.init({
-    duration: 1000
+    duration: 800,
+    offset: 0,
   });
   AOS.refresh();
 

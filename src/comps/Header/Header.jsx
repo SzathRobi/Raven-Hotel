@@ -12,7 +12,7 @@ import {
   List,
   ListItem,
   ListItemText,
-  ListItemIcon
+  ListItemIcon,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import MenuRoundedIcon from "@material-ui/icons/MenuRounded";
@@ -28,21 +28,21 @@ const useStyles = makeStyles({
     backgroundColor: "#fff",
     position: "fixed",
     top: 0,
-    left: 0
+    left: 0,
   },
   nav: {
     width: "50%",
     color: "#000",
     display: "none",
     "@media (min-width: 1024px)": {
-      display: "flex"
-    }
+      display: "flex",
+    },
   },
   navList: {
     width: "100%",
     display: "flex",
     justifyContent: "center",
-    fontSize: "1.3rem"
+    fontSize: "1.3rem",
   },
   listItem: {
     borderRadius: "4px",
@@ -54,21 +54,21 @@ const useStyles = makeStyles({
     "@media (min-width: 1024px)": {
       "&:hover": {
         backgroundColor: "#0097a7",
-        color: "#fff"
-      }
-    }
+        color: "#fff",
+      },
+    },
   },
   hamburgerContainer: {
     "@media (min-width: 1024px)": {
-      display: "none"
-    }
+      display: "none",
+    },
   },
   hamburger: {
-    color: "#000"
+    color: "#000",
   },
   closeIcon: {
-    margin: "auto auto auto 0"
-  }
+    margin: "auto auto auto 0",
+  },
 });
 
 const Header = () => {
@@ -117,7 +117,7 @@ const Header = () => {
         <Divider />
         <List>
           <ListItem button>
-            <Link to="/">
+            <Link to="/raven-hotel/">
               <ListItemIcon>
                 <LocalLibraryIcon />
               </ListItemIcon>
@@ -125,7 +125,7 @@ const Header = () => {
             </Link>
           </ListItem>
           <ListItem button>
-            <Link to="/Book">
+            <Link to="/raven-hotel/Book">
               <ListItemIcon>
                 <LocalLibraryIcon />
               </ListItemIcon>
@@ -133,7 +133,7 @@ const Header = () => {
             </Link>
           </ListItem>
           <ListItem button>
-            <Link to="/About">
+            <Link to="/raven-hotel/About">
               <ListItemIcon>
                 <ApartmentRoundedIcon />
               </ListItemIcon>
@@ -141,7 +141,7 @@ const Header = () => {
             </Link>
           </ListItem>
           <ListItem button>
-            <Link to="/Restaurant">
+            <Link to="/raven-hotel/Restaurant">
               <ListItemIcon>
                 <RestaurantRoundedIcon />
               </ListItemIcon>
@@ -150,7 +150,7 @@ const Header = () => {
           </ListItem>
           <Divider />
           <ListItem button>
-            <Link to="/Blog">
+            <Link to="/raven-hotel/Blog">
               <ListItemIcon>
                 <ListAltRoundedIcon />
               </ListItemIcon>

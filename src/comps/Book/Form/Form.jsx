@@ -17,24 +17,24 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     position: "relative",
     "@media (min-width: 1024px)": {
-      flexDirection: "row"
-    }
+      flexDirection: "row",
+    },
   },
   title: {
     position: "absolute",
     top: "2rem",
-    left: "2rem"
+    left: "1rem",
   },
   container: {
     width: 200,
     display: "flex",
     flexWrap: "wrap",
-    margin: "2rem auto 0"
+    margin: "2rem auto 0",
   },
   textField: {
     margin: "2rem 0",
-    width: 300
-  }
+    width: 300,
+  },
 }));
 
 const Form = () => {
@@ -53,7 +53,7 @@ const Form = () => {
           defaultValue="2017-05-24"
           className={classes.textField}
           InputLabelProps={{
-            shrink: true
+            shrink: true,
           }}
         />
 
@@ -64,7 +64,7 @@ const Form = () => {
           defaultValue="2020-05-24"
           className={classes.textField}
           InputLabelProps={{
-            shrink: true
+            shrink: true,
           }}
         />
       </Grid>

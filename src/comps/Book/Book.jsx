@@ -15,12 +15,12 @@ const useStyles = makeStyles((theme) => ({
     padding: "1rem 0",
     display: "flex",
     flexDirection: "column",
-    justifyContent: "center"
+    justifyContent: "center",
   },
   content: {
-    padding: "1rem 3rem 3rem",
-    marginBottom: "5rem"
-  }
+    padding: "1rem 1rem 3rem",
+    marginBottom: "5rem",
+  },
 }));
 
 export default function Book() {
