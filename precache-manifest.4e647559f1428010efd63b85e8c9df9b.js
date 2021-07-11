@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "54839859246ed1f1d9cbab691dbe2588",
+    "revision": "b304e41b5650c08486e3116562c8ee02",
     "url": "/raven-hotel/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/raven-hotel/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "7dd05cdc9d3b1aa5358f",
-    "url": "/raven-hotel/static/css/main.10d80f27.chunk.css"
+    "revision": "f09327a8faed03106ef6",
+    "url": "/raven-hotel/static/css/main.45f2453f.chunk.css"
   },
   {
     "revision": "6262848051a62c8fac49",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/raven-hotel/static/js/2.474d1ace.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7dd05cdc9d3b1aa5358f",
-    "url": "/raven-hotel/static/js/main.d758b416.chunk.js"
+    "revision": "f09327a8faed03106ef6",
+    "url": "/raven-hotel/static/js/main.b85bda83.chunk.js"
   },
   {
     "revision": "290be07b27d22379eaae",
